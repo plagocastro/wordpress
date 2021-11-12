@@ -1,8 +1,11 @@
 
+/*
+ echo get_stylesheet_uri()
+*/
 <html>
 <head>
     <title>New Funcy</title>
-    <link rel="stylesheet" href="http://10.0.9.24:8000/wp-content/themes/newFuncy/style.css"><? echo get_stylesheet_uri();?>
+    <link rel="stylesheet" href="http://10.0.9.24:8000/wp-content/themes/newFuncy/style.css">
 </head>
 
 <body>
