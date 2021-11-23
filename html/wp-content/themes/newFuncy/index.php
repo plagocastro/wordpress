@@ -1,7 +1,4 @@
 
-/*
- echo get_stylesheet_uri()
-*/
 <html>
 <head>
     <title>New Funcy</title>
@@ -13,7 +10,6 @@
 <div id="cuerpo">
 
     <?php
-    echo get_stylesheet_uri();
     echo  "<h1 class='morado'>Hola funcy</h1>";
     ?>
 
