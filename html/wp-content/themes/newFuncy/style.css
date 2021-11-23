@@ -14,5 +14,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 body {
-    background-color: #a664e0;
+    background-color: #ffe09a;
+    text-align: center;
+}
+div.datos{
+    position: absolute;
+    left: 300px;
+    bottom: 40px;
+    background: #bcffb4;
+}
+div.gorda{
+    font-weight: bold;
+    text-decoration-color: #6b003e;
 }
