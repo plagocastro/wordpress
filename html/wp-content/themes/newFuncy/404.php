@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<!--Aqui va mi 404-->
+<!--Aqui va my 404-->
 <body style="background-color: #ffe09a; text-align: center;">
 <h1>Pese a todos los intentos por completar su busqueda no se ha encontrado lo que deseaba :(</h1>
 <h2>Pero mire que mono mas guapo</h2>
