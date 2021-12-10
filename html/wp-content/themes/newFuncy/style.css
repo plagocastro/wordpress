@@ -17,13 +17,13 @@ body {
     background-color: #ffe09a;
     text-align: center;
 }
-div.datos{
+#datos{
     position: absolute;
     left: 300px;
     bottom: 40px;
     background: #bcffb4;
 }
-div.gorda{
+#gorda{
     font-weight: bold;
     text-decoration-color: #6b003e;
 }

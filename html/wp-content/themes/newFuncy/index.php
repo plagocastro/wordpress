@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <title>New Funcy</title>
@@ -6,15 +5,26 @@
 </head>
 
 <body>
-<?php get_header()?>
+<?php get_header() ?>
 <div id="cuerpo">
 
     <?php
-    echo  "<h1 class='morado'>Hola funcy</h1>";
+    echo "<h1 class='morado'>Hola funcy</h1>";
+
+    global $post;
+    if(have_posts()):
+        while ((have_posts())):
+            the_post();
+            the_title();
+            the_post_thumbnail();
+          endwhile;
+      endif;
     ?>
 
-</div>
 
-<? get_footer()?>
+
+    </div>
+
+    <? get_footer() ?>
 </body>
 </html>
