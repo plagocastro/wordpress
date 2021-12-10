@@ -1,0 +1,362 @@
+/*
+Theme Name: Perfect Coach
+Theme URI: https://blossomthemes.com/wordpress-themes/perfect-coach/
+Template: blossom-coach  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Perfect Coach is a lead-generating WordPress theme for coaches, mentors, therapists, speakers, leaders, counselors, medical practitioners and entrepreneurs. This theme helps you create an effective and stunning landing page to sell your services. The theme includes sections like Banner with Call-to-Action, Newsletter, About, Services, Testimonials, Call-to-Action and Instagram to showcase your services and help establish your business.  It is also WooCommerce compatible and works smoothly with LMS plugins such as LearnDash and TutorLMS. This speed-optimized theme is easy to use, mobile-friendly, and SEO-friendly. Perfect Coach is translation-ready, Schema-friendly, and RTL script-ready. Check theme details at https://blossomthemes.com/wordpress-themes/perfect-coach/, demo at https://blossomthemes.com/theme-demo/?theme=perfect-coach, documentation at https://docs.blossomthemes.com/perfect-coach/, and get support at https://blossomthemes.com/support-ticket/
+Version: 1.0.1
+Tested up to: 5.8.1
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: perfect-coach
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+/*=================================
+Variable
+=================================*/
+:root {
+    --primary-color: #72b7a6;
+    --primary-color-rgb: 114, 183, 166;
+    --secondary-color: #347c81;
+    --secondary-color-rgb: 52, 124, 129;
+    --font-color: #595f5f;
+    --font-color-rgb: 89, 95, 95;
+    --background-color: #fff;
+    --background-color-rgb: 255, 255, 255;
+    --black-color: #000;
+    --black-color-rgb: 0, 0, 0;
+    --white-color: #ffffff;
+    --white-color-rgb: 255, 255, 255;
+    --primary-font: 'Nunito sans', sans-serif;
+    --secondary-font: 'DM Sans', sans-serif
+}
+
+/*=================================
+Header 9
+=================================*/
+
+.header-lay9 .main-header .site-branding:not(.icon-text) {
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-header .button-wrap a {
+    padding: 13px 20px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.site .header-lay9 .main-header {
+    border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.site .header-lay9 .main-header .site-branding {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(var(--primary-color-rgb), 0.2);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.site .header-lay9 .main-header .wrapper .menu-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0 5px;
+}
+
+.site .header-lay9 .main-header .wrapper .menu-wrap nav+.button-wrap {
+    margin-left: 40px;
+}
+
+.site .header-lay9 .header-t {
+    background-color: rgba(var(--primary-color-rgb), 0.2);
+    padding: 15px 0;
+}
+
+.site .header-lay9 .header-t .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site .header-lay9 .header-t .wrapper::before,
+.site .header-lay9 .header-t .wrapper::after {
+    content: none;
+}
+
+.site .header-lay9 .header-t .wrapper .top-right {
+    float: unset;
+    width: unset;
+    padding-left: 30px;
+}
+
+.site .header-lay9 .header-t .wrapper .top-right .header-cart {
+    margin-left: 0;
+}
+
+.site .header-lay9 .header-t .wrapper .top-right .header-social {
+    padding-right: 30px;
+}
+
+.site .header-lay9 .header-t .wrapper .top-right .header-search {
+    border-left: 0;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 0;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
+
+
+
+.site .header-lay9 .header-t .wrapper .top-left {
+    width: unset;
+
+}
+
+.site .header-lay9 .header-t .wrapper .top-left span svg {
+    fill: var(--primary-color);
+    margin-right: 5px;
+}
+
+.site .header-lay9 .header-t .wrapper .top-left span svg path {
+    fill: var(--primary-color);
+    margin-right: 5px;
+}
+
+.site .header-lay9 .header-t .wrapper .top-left span a {
+    color: #46493C;
+}
+
+@media(min-width:1024px) {
+    .site .header-lay9 .main-header .site-branding {
+        padding: 40px 0;
+    }
+
+    .site .header-lay6 .main-header .site-branding {
+        padding: 40px 0;
+    }
+}
+
+/*=================================
+Banner style 6
+=================================*/
+
+
+.style-six.site-banner .banner-wrap .banner-link {
+    background-color: var(--secondary-color);
+    border: 0;
+    color: var(--white-color);
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 13px 40px;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+
+.style-six.site-banner .banner-wrap .banner-link:hover {
+    background-color: var(--primary-color);
+    border: 0;
+    color: var(--white-color);
+
+}
+
+.style-six.site-banner .banner-caption .banner-wrap .subtitle {
+    font-size: 0.88888888888888888888888888888889em;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.66px;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+.style-six.site-banner .banner-caption .banner-wrap .banner-title {
+    font-size: 2.6666666666666666666666666666667em;
+    line-height: 58px;
+    color: var(--black-color);
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+@media(max-width:767px) {
+
+    .style-six.site-banner .banner-caption .banner-wrap .banner-title {
+        font-size: 2em;
+        line-height: 51px;
+    }
+
+}
+
+.style-six.site-banner .banner-caption .banner-wrap .banner-content p {
+    color: rgba(var(--black-color-rgb), 0.9);
+    font-size: 1.1111111111111111111111111111111em;
+    line-height: 34px;
+    letter-spacing: 0.01666665em;
+    margin-bottom: 0;
+}
+
+.style-six.site-banner {
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+    padding: 60px 0 28px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.style-six.site-banner::after {
+    content: '';
+    position: absolute;
+    width: 244px;
+    height: 198px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='244.614' height='198.56' viewBox='0 0 244.614 198.56'%3E%3Cg id='Group_6281' data-name='Group 6281' transform='translate(-1865.716 56.644)'%3E%3Cg id='Group_6280' data-name='Group 6280'%3E%3Cpath id='Path_30637' data-name='Path 30637' d='M1513.342,1482.8c-12.991,25.019-27.714,61.337-20.785,77.479s23.406,57.3,43.747,62.145,26.041,11.562,39.027,9.14,12.022,5.379,45.682,2.169,29.544-19.5,49.463-27.571,36.18-16.37,44.84-16.37,30.994-45.656,13.673-66.639-125.577-88.778-157.621-87.165S1513.342,1482.8,1513.342,1482.8Z' transform='translate(374.934 -1492.606)' fill='%23347c81' opacity='0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -61px;
+    left: -68px;
+    z-index: -1;
+}
+
+.style-six.site-banner>.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.style-six.site-banner .banner-caption {
+    position: relative;
+    top: unset;
+    left: unset;
+    flex: 0 0 50%;
+    transform: unset;
+    z-index: 2;
+    overflow: hidden;
+    background: unset;
+    padding: 40px 15px;
+
+
+
+}
+
+
+.style-six.site-banner .wrapper .wp-custom-header::before {
+    content: '';
+    position: absolute;
+    background: rgba(var(--primary-color-rgb), 0.1);
+    width: 494px;
+    height: 494px;
+    border-radius: 100%;
+    left: -105px;
+    bottom: -245px;
+    z-index: -1;
+    top: unset;
+
+}
+
+
+.style-six.site-banner .banner-caption .wrapper {
+    padding:  0;
+
+}
+
+.style-six.site-banner .banner-caption .banner-wrap {
+    width: 100%;
+    float: unset;
+    text-align: left;
+
+
+}
+
+.style-six.site-banner .wp-custom-header {
+    flex: 0 0 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.style-six.site-banner .wp-custom-header::after {
+    content: none;
+}
+
+.style-six.site-banner .wp-custom-header>img {
+    width: unset;
+    height: unset;
+}
+
+@media(min-width:1025px) {
+    .style-six.site-banner {
+        padding: 90px 0;
+    
+    }
+    .style-six.site-banner>.wrapper {
+        flex-direction: row-reverse;
+
+    }
+    .style-six.site-banner {
+        padding: 90px 0 40px;
+    }
+
+    .style-six.site-banner .banner-caption .wrapper {
+        padding: 50px 65px 50px 0;
+        max-width: 568px;
+
+    }
+
+    .style-six.site-banner.item-right>.wrapper {
+        flex-direction: row;
+    }
+
+    .style-six.site-banner.item-right .banner-caption .wrapper {
+        padding: 50px 0 50px 65px;
+        max-width: 568px;
+
+    }
+    .style-six.site-banner .banner-caption {
+        padding:0;
+      
+    }
+
+
+}
+@media screen and (max-width: 640px){
+     .site-banner.style-six .banner-caption .banner-wrap>.banner-content {
+         display: block;
+    }
+    .widget_blossom_client_logo_widget .image-holder img {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .site .header-lay9 .header-t .wrapper {
+        flex-direction: column;
+    }
+    .site .header-lay9 .header-t .wrapper .header-social{
+        margin-bottom: 12px;
+    }
+    .site .header-lay9 .header-t .wrapper .top-right{
+        padding-left: 0;
+    }
+    .site-header.header-lay1 .wrapper{
+        flex:unset;
+    }
+    .site-header.header-lay1 .wrapper .site-branding.icon-text{
+        text-align: left;
+    }
+    .site-header.header-lay1 .wrapper .site-branding.icon-text .site-logo{
+        margin-bottom: 12px;
+    }
+}
+
+
+
