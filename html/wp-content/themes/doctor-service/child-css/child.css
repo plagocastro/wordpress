@@ -27,8 +27,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 .top-bar{
   padding: 20px 0px;
-  background: #f9f9f9;
-  border-bottom: 1px solid #eee;
+  background: #050202;
+  border-bottom: 1px solid #000000;
 }
 
 @media (min-width: 1199px) {
@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .top-bar .social-icon .fa-instagram{
-    background: #e63561;
+    background: #000000;
 }
 
 .top-bar .social-icon .fa-instagram:hover{
@@ -1382,43 +1382,42 @@ blockquote span {
         bottom: 50px !important;
     }
 }
-@media only screen and (min-width: 600px)
-{
-.portfolio-5, .testimonials-5, .blog-5, .services-5{
-    padding: 80px 0px 80px !important;
-}
-@media (min-width: 992px)
-{
-.affix.sticky-menu .main-navigation .nav-menu>.menu-item>a {
-    color: #fff;
-    font-weight: 600;
-}
-}
+@media only screen and (min-width: 600px) {
+    .portfolio-5, .testimonials-5, .blog-5, .services-5 {
+        padding: 80px 0px 80px !important;
+    }
 
-a,a:hover{
-	text-decoration: none;
-}
+    @media (min-width: 992px) {
+        .affix.sticky-menu .main-navigation .nav-menu > .menu-item > a {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
 
-.home7-hero-sec .slider-item {
-	height:100vh;
-}
+    a, a:hover {
+        text-decoration: none;
+    }
 
-.home-area .owl-theme .owl-dots {
-    display: flex !important;
-    position: absolute;
-    left: 45% !important;
-    top: 90% !important;
-}
+    .home7-hero-sec .slider-item {
+        height: 100vh;
+    }
 
-.feature-area .feature-box:hover {
-    transform: translateY(0px) !important;
-}
-.testimonials-5 .owl-carousel .owl-dots.disabled
-{
-	display:block;
-}
+    .home-area .owl-theme .owl-dots {
+        display: flex !important;
+        position: absolute;
+        left: 45% !important;
+        top: 90% !important;
+    }
 
-.main-navigation .main-menu .menu-item-has-children > a::after
-{
-	content: "\f067" !important;
+    .feature-area .feature-box:hover {
+        transform: translateY(0px) !important;
+    }
+
+    .testimonials-5 .owl-carousel .owl-dots.disabled {
+        display: block;
+    }
+
+    .main-navigation .main-menu .menu-item-has-children > a::after {
+        content: "\f067" !important;
+    }
 }
